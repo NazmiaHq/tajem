@@ -1,0 +1,269 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	direction: ltr;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+.head{
+	background-image: url("backk.png");
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+.nav{
+	display: block;
+}
+
+.logo {
+	margin: 0px;
+	float: left;
+	text-align: center;
+	width: 30%;
+}
+.logo a img{
+	margin-top: 0px;
+	padding-top: 0px;
+	width: 100px;
+	height: 50px;
+}
+.rightMenu {
+	width: 70%;
+	float: right;
+	height: auto;
+	text-align: right;
+}
+.rightMenu ul{
+	list-style-type: none;
+	margin:0px;
+}
+.rightMenu ul li{
+	padding: 5px;
+	display:inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+.rightMenu ul li:hover{
+	color: #00e0d0;
+	cursor: pointer;
+}
+.texts h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 32px;
+	color: white;
+	padding-top: 190px;
+	text-align: center;
+}
+.texts p{
+	font-size: 14px;
+	text-align: center;
+	color: white;
+}
+.btn{
+	text-align: center;
+	padding-top: 55px;
+}
+.btn a{
+	color: white;
+	border:1px solid;
+	border-color: white;
+	width: 120px;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	text-decoration-line: none;
+}
+.btn a:hover{
+	color: #00e0d0;
+	border-color: #00e0d0;
+}
+.abouta{
+	height: auto;
+	padding-top: 77px;
+	box-sizing: border-box;
+	background-color: white;
+}
+.abouta .imglo{
+	width: 40%;
+	float: left;
+	padding-bottom: 80px;
+}
+.abouta .rightSec{
+	padding-top: 0px;
+	width: 60%;
+	float: right;
+}
+.abouta h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+	text-align: left;
+}
+.rightSec p{
+	font-size: 14px;
+	text-align: left;
+	color: black;
+}
+.rightSec a{
+	color: #00e0d0;
+	border:1px solid;
+	border-color: #00e0d0;
+	width: 120px;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	text-decoration-line: none;
+}
+.clear{
+	clear: both;
+}
+.aboutb{
+	height: auto;
+	background-image: url("back2.png");
+	text-align: center;
+}
+.aboutb a{
+	width: 100%;
+	display: inline-block;
+	color: white;
+	font-size: 100px;
+	padding-bottom: 10px;
+}
+.aboutb .content{
+	padding-top: 210px;
+	padding-bottom: 200px;
+}
+.aboutb span{
+	color: white;
+}
+.exper {
+	height: auto;
+	background-color: white;
+	text-align: center;
+	box-sizing: border-box;
+	margin-top: 74px;
+	margin-bottom: 104px;
+}
+.exper h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+}
+.exper p{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: black;
+}
+.exper hr{
+	width: 50px;
+}
+.row{
+	width: 100%;
+	height: auto;
+	text-align:center;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.row .grid{
+	width: 33.3%;
+	float: left;
+}
+#row{
+	width: 100%;
+	margin-top: 50px;
+}
+.row{
+	margin-top: 50px;
+}
+.grid h3{
+	color: #413d4b;
+	font-size: 14px;
+}
+.grid p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #333333;
+}
+.grid .imag{
+	font-size: 48px;
+	color:#00e0d0;
+}
+.team {
+	height: auto;
+	background-image: url(back3.png);
+	text-align: center;
+	box-sizing: border-box;
+}
+.team h2{
+	padding-top: 74px;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+}
+.team p{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: white;
+}
+.team hr{
+	width: 50px;
+}
+.team .row{
+	width: 100%;
+	height: auto;
+	text-align:center;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-bottom: 74px;
+}
+.team .row .grid{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.team .row .grid .imag{
+	border: 1px;
+	width: 220px;
+	height: 230px;
+	background-color: white;
+	border-color:  #e1e1e1;
+}
+.team .row .grid hr{
+	width: 220px;
+	color:  #e1e1e1;
+	border-color: #e1e1e1;
+	background-color:  #e1e1e1;
+}
+.team .row .grid h3{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 14px;
+}
+.team .row .grid span{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 13px;
+	font-weight: normal;
+}
+.team .btn{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.team .grid:hover{
+	background-color: rgba(82,195,192,0.6);
+}
